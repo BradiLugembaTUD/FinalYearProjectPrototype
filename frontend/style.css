@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #f8f9fa;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.section {
+    background: white;
+    padding: 15px;
+    margin-bottom: 25px;
+    border-radius: 8px;
+    box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
+}
+
+.alert {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    color: white;
+}
+
+.alert.High {
+    background-color: #d9534f;
+}
+
+.alert.Medium {
+    background-color: #f0ad4e;
+}
+
+.alert.Low {
+    background-color: #5bc0de;
+}
+
+.log {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+}
