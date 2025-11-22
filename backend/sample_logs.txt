@@ -1,0 +1,6 @@
+2025-01-10 12:14:22 AUTH Failed login attempt from user=admin source=192.168.1.44
+2025-01-10 12:14:24 AUTH Failed login attempt from user=admin source=192.168.1.44
+2025-01-10 12:14:26 AUTH Failed login attempt from user=admin source=192.168.1.44
+2025-01-10 12:20:10 AUTH Successful login user=admin source=192.168.1.44
+2025-01-10 12:35:19 SYSTEM Firewall rule change detected
+2025-01-10 12:40:55 NETWORK Unusual traffic spike detected from IP 10.0.0.85
