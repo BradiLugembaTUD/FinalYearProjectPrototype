@@ -1,15 +1,10 @@
 from db import get_connection
 
-password = None
-
-def set_password(pwd):
-    global password
-    password = pwd
 
 failed_login_count = 0
 
 def create_alert(severity, description, timestamp):
-    conn = get_connection(password)
+    conn = get_connection()
     cur = conn.cursor()
 
     cur.execute(

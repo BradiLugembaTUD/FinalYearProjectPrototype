@@ -41,7 +41,7 @@ async function fetchLogs() {
 
 function playSound(file) {
     const audio = document.getElementById("alert-sound");
-    audio.src = "../sounds/" + file;
+    audio.src = "sounds/" + file;
     audio.play();
 }
 

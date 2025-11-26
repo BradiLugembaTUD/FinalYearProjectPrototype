@@ -11,3 +11,8 @@ CREATE TABLE alerts (
     severity VARCHAR(20) NOT NULL,
     description TEXT NOT NULL
 );
+
+
+SELECT * FROM alerts;
+SELECT * FROM logs;
+

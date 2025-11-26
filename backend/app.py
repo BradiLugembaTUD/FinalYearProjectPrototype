@@ -2,11 +2,11 @@ from db import get_connection
 from datetime import datetime
 import detector
 
-password = input("Enter PostgreSQL password: ")
-detector.set_password(password)
+
+
 
 def insert_log(timestamp, source, message):
-    conn = get_connection(password)
+    conn = get_connection()
     cur = conn.cursor()
 
     cur.execute(
